@@ -1,0 +1,911 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Progetto Online - Teleassistenza</title>
+    
+    <!-- SEO Meta Tags -->
+    <meta name="description" content="Servizio di teleassistenza specializzato in preparazioni galenici. Prenota visite con medici specialisti per terapie personalizzate.">
+    <meta name="keywords" content="galenica online, teleassistenza, preparati galenici, medici specialisti, terapie personalizzate">
+    <meta name="author" content="Galenica Online">
+    
+    <!-- Open Graph / Facebook -->
+    <meta property="og:title" content="Galenica Online - Teleassistenza Preparati Galenici">
+    <meta property="og:description" content="Servizio di teleassistenza specializzato in preparazioni galenici">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://www.google.com">
+    
+    <!-- Twitter -->
+    <meta name="twitter:card" content="summary_large_image">
+    
+    <!-- Preconnect for Performance -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="dns-prefetch" href="https://cdnjs.cloudflare.com">
+    
+    <!-- External Resources -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" media="print" onload="this.media='all'">
+    <noscript><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"></noscript>
+    
+    <!-- Custom Styles -->
+    <link rel="stylesheet" href="styles.css">
+    
+    <!-- Structured Data 
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "MedicalOrganization",
+      "name": "Galenica Online",
+      "description": "Servizio di teleassistenza specializzato in preparazioni galenici",
+      "url": "",
+      "logo": "",
+      "contactPoint": {
+        "@type": "ContactPoint",
+        "telephone": "+39",
+        "contactType": "customer service",
+        "availableLanguage": "Italian"
+      },
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "Via ",
+        "addressLocality": "Roma",
+        "addressRegion": "RM",
+        "postalCode": "00100",
+        "addressCountry": "IT"
+      },
+      "sameAs": [
+
+      ]
+    }
+    </script>-->
+</head>
+<body>
+    <!-- Skip to main content for accessibility -->
+    <a href="#main-content" class="skip-link">Vai al contenuto principale</a>
+    
+    <!-- Header -->
+    <header class="header" role="banner">
+        <div class="container">
+            <div class="header__content">
+                <div class="logo">
+                    <div class="logo__icon">
+                        <i class="fas fa-pills" aria-hidden="true"></i>
+                    </div>
+                    <h1 class="logo__text">Progetto<span class="logo__accent">Online</span></h1>
+                </div>
+                
+                <nav class="nav" role="navigation" aria-label="Menu principale">
+                    <a href="#services" class="nav__link">Servizi</a>
+                    <a href="#patologies" class="nav__link">Patologie</a>
+                    <a href="#doctors" class="nav__link">Medici</a>
+                    <a href="#process" class="nav__link">Come Funziona</a>
+                    <a href="#contact" class="nav__link">Contatti</a>
+                </nav>
+                
+                <button class="mobile-menu-btn" aria-label="Apri menu" aria-expanded="false" aria-controls="mobile-menu">
+                    <i class="fas fa-bars" aria-hidden="true"></i>
+                </button>
+            </div>
+            
+            <div id="mobile-menu" class="mobile-menu">
+                <a href="#services" class="mobile-menu__link">Servizi</a>
+                <a href="#patologies" class="mobile-menu__link">Patologie</a>
+                <a href="#doctors" class="mobile-menu__link">Medici</a>
+                <a href="#process" class="mobile-menu__link">Come Funziona</a>
+                <a href="#contact" class="mobile-menu__link">Contatti</a>
+            </div>
+        </div>
+    </header>
+
+    <main id="main-content">
+        <!-- Hero Section -->
+        <section class="hero">
+            <div class="container">
+                <div class="hero__content">
+                    <div class="hero__text">
+                        <h1 class="hero__title">Trova il tuo medico con un click</h1>
+                        <p class="hero__subtitle">Servizio di teleassistenza specializzato in preparazioni galenici</p>
+                        <div class="hero__buttons">
+                            <button class="btn btn--primary">Prenota una visita</button>
+                            <button class="btn btn--outline">Scopri di più</button>
+                        </div>
+                    </div>
+                    
+                    <div class="hero__visual">
+                        <div class="hero__card">
+                            <div class="hero__card-inner">
+                                <h3>Medici Specialisti al tuo servizio</h3>
+                                <p>Connetti pazienti e specialisti per prescrizioni di terapie a base di composti galenici</p>
+                                <div class="hero__stat">
+                                    <div class="hero__stat-icon">
+                                        <i class="fas fa-user-md" aria-hidden="true"></i>
+                                    </div>
+                                    <p>Più di 50 specialisti disponibili</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Vision & Mission -->
+        <section class="section section--light">
+            <div class="container">
+                <div class="section__header">
+                    <h2 class="section__title">La nostra Vision e Mission</h2>
+                    <div class="section__divider"></div>
+                </div>
+                
+                <div class="vision-mission">
+                    <div class="vision-mission__content">
+                        <h3 class="vision-mission__title">Assistere i pazienti e supportarli in tutti i processi di cura</h3>
+                        <p class="vision-mission__text">Galenicaonline è un progetto innovativo che si propone come strumento di comunicazione e supporto, per quanti possono trovare sollievo e vantaggi nelle terapie a base di composti galenici.</p>
+                        <p class="vision-mission__text">I nostri medici specializzati e la nostra soluzione digitale per ricette dematerializzate garantiscono un percorso terapeutico personalizzato.</p>
+                    </div>
+                    <div class="vision-mission__features">
+                        <div class="feature">
+                            <div class="feature__icon feature__icon--primary">
+                                <i class="fas fa-heartbeat" aria-hidden="true"></i>
+                            </div>
+                            <div class="feature__content">
+                                <h4 class="feature__title">Promuoviamo la salute</h4>
+                                <p class="feature__text">Siamo convinti che le nuove tecnologie contribuiscano a fare la differenza e creare un modello assistenziale a misura della singola persona.</p>
+                            </div>
+                        </div>
+                        <div class="feature">
+                            <div class="feature__icon feature__icon--secondary">
+                                <i class="fas fa-sync-alt" aria-hidden="true"></i>
+                            </div>
+                            <div class="feature__content">
+                                <h4 class="feature__title">Costante aggiornamento</h4>
+                                <p class="feature__text">Ci impegniamo ad aggiornare contenuti e procedure di pari passo con l'evoluzione farmacologica e scientifica.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact" class="section">
+            <div class="container">
+                <div class="section__header">
+                    <h2 class="section__title">Parla con noi!</h2>
+                    <div class="section__divider"></div>
+                    <p class="section__subtitle">Contatta la nostra segreteria per maggiori informazioni e chiarimenti, insieme ti guideremo verso il miglior percorso terapeutico personalizzato sulle tue esigenze</p>
+                </div>
+                
+                <div class="contact-card">
+                    <h3 class="contact-card__title">Riceverai una chiamata dal numero</h3>
+                    <div class="contact-card__phone">(+39) 351 242 7030</div>
+                    <button class="btn btn--outline">Richiedi un contatto</button>
+                </div>
+            </div>
+        </section>
+
+        <!-- Patologies Section -->
+        <section id="patologies" class="section section--gray">
+            <div class="container">
+                <div class="section__header">
+                    <h2 class="section__title">Lista delle Patologie</h2>
+                    <div class="section__divider"></div>
+                    <p class="section__subtitle">Ecco le patologie trattabili con efficacia tramite i composti galenici.</p>
+                </div>
+                
+                <div class="patologies-grid">
+                    <!-- Dolore Cronico -->
+                    <div class="patology-card">
+                        <div class="patology-card__image">
+                            <div class="patology-card__icon"></div>
+                        </div>
+                        <div class="patology-card__body">
+                            <h3 class="patology-card__title">Dolore Cronico</h3>
+                            <ul class="patology-card__list">
+                                <li class="patology-card__item">
+                                    <i class="fas fa-check-circle" aria-hidden="true"></i>
+                                    <span>Dolore Neuropatico</span>
+                                </li>
+                                <li class="patology-card__item">
+                                    <i class="fas fa-check-circle" aria-hidden="true"></i>
+                                    <span>Morbo di Crohn</span>
+                                </li>
+                                <li class="patology-card__item">
+                                    <i class="fas fa-check-circle" aria-hidden="true"></i>
+                                    <span>Fibromialgia</span>
+                                </li>
+                                <li class="patology-card__item">
+                                    <i class="fas fa-check-circle" aria-hidden="true"></i>
+                                    <span>Artrite</span>
+                                </li>
+                                <li class="patology-card__item">
+                                    <i class="fas fa-check-circle" aria-hidden="true"></i>
+                                    <span>Artrosi</span>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    
+                    <!-- Patologie Oncologiche -->
+                    <div class="patology-card">
+                        <div class="patology-card__image">
+                            <div class="patology-card__icon"></div>
+                        </div>
+                        <div class="patology-card__body">
+                            <h3 class="patology-card__title">Patologie Oncologiche</h3>
+                            <ul class="patology-card__list">
+                                <li class="patology-card__item">
+                                    <i class="fas fa-check-circle" aria-hidden="true"></i>
+                                    <span>Tumori solidi</span>
+                                </li>
+                                <li class="patology-card__item">
+                                    <i class="fas fa-check-circle" aria-hidden="true"></i>
+                                    <span>Leucemie e linfomi</span>
+                                </li>
+                                <li class="patology-card__item">
+                                    <i class="fas fa-check-circle" aria-hidden="true"></i>
+                                    <span>Effetti collaterali da chemioterapici</span>
+                                </li>
+                                <li class="patology-card__item">
+                                    <i class="fas fa-check-circle" aria-hidden="true"></i>
+                                    <span>Cure del dolore</span>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    
+                    <!-- Patologie Neurologiche -->
+                    <div class="patology-card">
+                        <div class="patology-card__image">
+                            <div class="patology-card__icon"></div>
+                        </div>
+                        <div class="patology-card__body">
+                            <h3 class="patology-card__title">Patologie Neurologiche</h3>
+                            <ul class="patology-card__list">
+                                <li class="patology-card__item">
+                                    <i class="fas fa-check-circle" aria-hidden="true"></i>
+                                    <span>Morbo di Parkinson</span>
+                                </li>
+                                <li class="patology-card__item">
+                                    <i class="fas fa-check-circle" aria-hidden="true"></i>
+                                    <span>Sclerosis Multipla</span>
+                                </li>
+                                <li class="patology-card__item">
+                                    <i class="fas fa-check-circle" aria-hidden="true"></i>
+                                    <span>Alzheimer</span>
+                                </li>
+                                <li class="patology-card__item">
+                                    <i class="fas fa-check-circle" aria-hidden="true"></i>
+                                    <span>Demenza Senile</span>
+                                </li>
+                                <li class="patology-card__item">
+                                    <i class="fas fa-check-circle" aria-hidden="true"></i>
+                                    <span>Epilessia</span>
+                                </li>
+                                <li class="patology-card__item">
+                                    <i class="fas fa-check-circle" aria-hidden="true"></i>
+                                    <span>Glaucoma</span>
+                                </li>
+                                <li class="patology-card__item">
+                                    <i class="fas fa-check-circle" aria-hidden="true"></i>
+                                    <span>Ictus</span>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    
+                    <!-- Disturbi Psichici -->
+                    <div class="patology-card">
+                        <div class="patology-card__image">
+                            <div class="patology-card__icon"></div>
+                        </div>
+                        <div class="patology-card__body">
+                            <h3 class="patology-card__title">Disturbi Psichici</h3>
+                            <ul class="patology-card__list">
+                                <li class="patology-card__item">
+                                    <i class="fas fa-check-circle" aria-hidden="true"></i>
+                                    <span>Autismo</span>
+                                </li>
+                                <li class="patology-card__item">
+                                    <i class="fas fa-check-circle" aria-hidden="true"></i>
+                                    <span>ADHD</span>
+                                </li>
+                                <li class="patology-card__item">
+                                    <i class="fas fa-check-circle" aria-hidden="true"></i>
+                                    <span>Depressione</span>
+                                </li>
+                                <li class="patology-card__item">
+                                    <i class="fas fa-check-circle" aria-hidden="true"></i>
+                                    <span>Ansia</span>
+                                </li>
+                                <li class="patology-card__item">
+                                    <i class="fas fa-check-circle" aria-hidden="true"></i>
+                                    <span>Insonnia</span>
+                                </li>
+                                <li class="patology-card__item">
+                                    <i class="fas fa-check-circle" aria-hidden="true"></i>
+                                    <span>Stress</span>
+                                </li>
+                                <li class="patology-card__item">
+                                    <i class="fas fa-check-circle" aria-hidden="true"></i>
+                                    <span>Disturbi alimentari</span>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    
+                    <!-- Patologie Ginecologiche -->
+                    <div class="patology-card">
+                        <div class="patology-card__image">
+                            <div class="patology-card__icon"></div>
+                        </div>
+                        <div class="patology-card__body">
+                            <h3 class="patology-card__title">Patologie Ginecologiche</h3>
+                            <ul class="patology-card__list">
+                                <li class="patology-card__item">
+                                    <i class="fas fa-check-circle" aria-hidden="true"></i>
+                                    <span>Dolore Cronico Ginecologico</span>
+                                </li>
+                                <li class="patology-card__item">
+                                    <i class="fas fa-check-circle" aria-hidden="true"></i>
+                                    <span>Endometriosi</span>
+                                </li>
+                                <li class="patology-card__item">
+                                    <i class="fas fa-check-circle" aria-hidden="true"></i>
+                                    <span>Vulvodinia</span>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    
+                    <!-- Patologie Rare -->
+                    <div class="patology-card">
+                        <div class="patology-card__image">
+                            <div class="patology-card__icon"></div>
+                        </div>
+                        <div class="patology-card__body">
+                            <h3 class="patology-card__title">Patologie Rare</h3>
+                            <ul class="patology-card__list">
+                                <li class="patology-card__item">
+                                    <i class="fas fa-check-circle" aria-hidden="true"></i>
+                                    <span>Sindrome di Tourette</span>
+                                </li>
+                                <li class="patology-card__item">
+                                    <i class="fas fa-check-circle" aria-hidden="true"></i>
+                                    <span>Malattia di Huntington</span>
+                                </li>
+                                <li class="patology-card__item">
+                                    <i class="fas fa-check-circle" aria-hidden="true"></i>
+                                    <span>Displasia fibrosa</span>
+                                </li>
+                                <li class="patology-card__item">
+                                    <i class="fas fa-check-circle" aria-hidden="true"></i>
+                                    <span>Sindrome di Rett</span>
+                                </li>
+                                <li class="patology-card__item">
+                                    <i class="fas fa-check-circle" aria-hidden="true"></i>
+                                    <span>Epilessia refrattaria</span>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Patient Benefits -->
+        <section class="section">
+            <div class="container">
+                <div class="section__header">
+                    <h2 class="section__title">I vantaggi per i pazienti</h2>
+                    <div class="section__divider"></div>
+                    <p class="section__subtitle">Consulti medici personalizzati per migliorare la tua qualità della vita</p>
+                </div>
+                
+                <div class="benefits-grid">
+                    <div class="benefit-card">
+                        <div class="benefit-card__icon benefit-card__icon--primary">
+                            <i class="fas fa-user-md" aria-hidden="true"></i>
+                        </div>
+                        <h3 class="benefit-card__title">Relazione Continuativa</h3>
+                        <p class="benefit-card__text">Miglioramento della qualità della vita e senso di sicurezza e cura derivante dal rapporto umano, continuativo e confidenziale con il personale di Galenicaonline.</p>
+                    </div>
+                    
+                    <div class="benefit-card">
+                        <div class="benefit-card__icon benefit-card__icon--secondary">
+                            <i class="fas fa-clock" aria-hidden="true"></i>
+                        </div>
+                        <h3 class="benefit-card__title">Risparmio di Tempo</h3>
+                        <p class="benefit-card__text">Riduzione delle visite ambulatoriali, degli accessi al Pronto Soccorso per aggravio della patologia e dei tempi di attesa.</p>
+                    </div>
+                    
+                    <div class="benefit-card">
+                        <div class="benefit-card__icon benefit-card__icon--accent">
+                            <i class="fas fa-info-circle" aria-hidden="true"></i>
+                        </div>
+                        <h3 class="benefit-card__title">Accesso Facilitato</h3>
+                        <p class="benefit-card__text">Accesso facilitato all'informazione sui servizi di cura e semplificazione della fruizione dei servizi.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Testimonials Section -->
+        <section class="section section--light">
+            <div class="container">
+                <div class="section__header">
+                    <h2 class="section__title">Cosa dicono i nostri pazienti</h2>
+                    <div class="section__divider"></div>
+                    <p class="section__subtitle">Le esperienze di chi ha già utilizzato i nostri servizi</p>
+                </div>
+                
+                <div class="testimonials-grid">
+                    <div class="testimonial-card">
+                        <div class="testimonial-card__rating">
+                            <i class="fas fa-star" aria-hidden="true"></i>
+                            <i class="fas fa-star" aria-hidden="true"></i>
+                            <i class="fas fa-star" aria-hidden="true"></i>
+                            <i class="fas fa-star" aria-hidden="true"></i>
+                            <i class="fas fa-star" aria-hidden="true"></i>
+                        </div>
+                        <p class="testimonial-card__text">"Galenica Online ha cambiato la mia gestione terapeutica. Finalmente posso consultare specialisti senza uscire di casa."</p>
+                        <div class="testimonial-card__author">
+                            <div class="testimonial-card__avatar"></div>
+                            <div class="testimonial-card__info">
+                                <h4>Maria R.</h4>
+                                <p>Paziente dal 2022</p>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="testimonial-card">
+                        <div class="testimonial-card__rating">
+                            <i class="fas fa-star" aria-hidden="true"></i>
+                            <i class="fas fa-star" aria-hidden="true"></i>
+                            <i class="fas fa-star" aria-hidden="true"></i>
+                            <i class="fas fa-star" aria-hidden="true"></i>
+                            <i class="fas fa-star" aria-hidden="true"></i>
+                        </div>
+                        <p class="testimonial-card__text">"Professionalità e competenza. I medici sono disponibili e preparati, e la piattaforma è intuitiva."</p>
+                        <div class="testimonial-card__author">
+                            <div class="testimonial-card__avatar"></div>
+                            <div class="testimonial-card__info">
+                                <h4>Luca M.</h4>
+                                <p>Paziente dal 2023</p>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="testimonial-card">
+                        <div class="testimonial-card__rating">
+                            <i class="fas fa-star" aria-hidden="true"></i>
+                            <i class="fas fa-star" aria-hidden="true"></i>
+                            <i class="fas fa-star" aria-hidden="true"></i>
+                            <i class="fas fa-star" aria-hidden="true"></i>
+                            <i class="fas fa-star" aria-hidden="true"></i>
+                        </div>
+                        <p class="testimonial-card__text">"Consiglio vivamente Galenica Online a chiunque abbia bisogno di terapie personalizzate con preparati galenici."</p>
+                        <div class="testimonial-card__author">
+                            <div class="testimonial-card__avatar"></div>
+                            <div class="testimonial-card__info">
+                                <h4>Giorgia L.</h4>
+                                <p>Paziente dal 2021</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- How it Works -->
+        <section id="process" class="section section--gray">
+            <div class="container">
+                <div class="section__header">
+                    <h2 class="section__title">Come funziona?</h2>
+                    <div class="section__divider"></div>
+                    <p class="section__subtitle">Richiedi una visita in pochi passaggi</p>
+                </div>
+                
+                <div class="process-steps">
+                    <div class="process-step">
+                        <div class="process-step__number">1</div>
+                        <div class="process-step__content">
+                            <h3 class="process-step__title">Ottieni un consulto</h3>
+                            <p class="process-step__text">Ottieni un consulto in presenza, in televisita o in videovisita con i nostri specialisti esperti e ricevi un parere medico qualificato sulla tua patologia e sulle possibilità di cura con terapie a base di composti galenici inclusi i cannabinoidi; oppure richiedi una seconda opinione se segui già una terapia.</p>
+                        </div>
+                    </div>
+                    
+                    <div class="process-step">
+                        <div class="process-step__number">2</div>
+                        <div class="process-step__content">
+                            <h3 class="process-step__title">Invia la tua documentazione</h3>
+                            <p class="process-step__text">Invia la tua documentazione e ricevi il parere entro 3 giorni lavorativi.</p>
+                        </div>
+                    </div>
+                    
+                    <div class="process-step">
+                        <div class="process-step__number">3</div>
+                        <div class="process-step__content">
+                            <h3 class="process-step__title">Programma visite di controllo</h3>
+                            <p class="process-step__text">Programma, se necessario, visite di controllo a distanza oppure ricevi piani di cura personalizzati.</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="process-cta">
+                    <div class="process-cta__content">
+                        <h3 class="process-cta__title">Tramite il nostro software mettersi in contatto con un medico è semplicissimo, basta un click!</h3>
+                        <button class="btn btn--primary">Prenota ora</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- System Benefits -->
+        <section class="section">
+            <div class="container">
+                <div class="section__header">
+                    <h2 class="section__title">Vantaggi del nostro sistema</h2>
+                    <div class="section__divider"></div>
+                    <p class="section__subtitle">Medici specializzati ti seguiranno a distanza in tutto il periodo di cura</p>
+                </div>
+                
+                <div class="system-benefits">
+                    <div class="system-benefits__list">
+                        <div class="system-benefit">
+                            <div class="system-benefit__icon">
+                                <i class="fas fa-check" aria-hidden="true"></i>
+                            </div>
+                            <div class="system-benefit__content">
+                                <h3 class="system-benefit__title">Ricette elettroniche</h3>
+                                <p class="system-benefit__text">Potrai ricevere e richiedere ricette elettroniche in modo semplice e rapido.</p>
+                            </div>
+                        </div>
+                        
+                        <div class="system-benefit">
+                            <div class="system-benefit__icon">
+                                <i class="fas fa-check" aria-hidden="true"></i>
+                            </div>
+                            <div class="system-benefit__content">
+                                <h3 class="system-benefit__title">Sicurezza garantita</h3>
+                                <p class="system-benefit__text">Evita i rischi dell'autodiagnosi: la nostra piattaforma garantisce la sicurezza di un'area personale e protetta per le richieste di consulto.</p>
+                            </div>
+                        </div>
+                        
+                        <div class="system-benefit">
+                            <div class="system-benefit__icon">
+                                <i class="fas fa-check" aria-hidden="true"></i>
+                            </div>
+                            <div class="system-benefit__content">
+                                <h3 class="system-benefit__title">Privacy rispettata</h3>
+                                <p class="system-benefit__text">Nel pieno rispetto delle norme relative alla privacy e trattamento dei dati sensibili ed è GDPR compliant.</p>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="system-benefits__highlight">
+                        <h3 class="system-benefits__highlight-title">Ottieni il parere del medico più competente</h3>
+                        <p class="system-benefits__highlight-text">La nostra comunità di specialisti riconosciuti a livello internazionale affronta in modo verticale centinaia di patologie e garantisce un approccio multidisciplinare.</p>
+                        <p class="system-benefits__highlight-text">Una squadra di esperti è pronta a supportarti lungo tutto il percorso, rispondendo a ogni tua domanda e assistendoti al meglio.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Doctors Section -->
+        <section id="doctors" class="section section--light">
+            <div class="container">
+                <div class="section__header">
+                    <h2 class="section__title">Medici Specialisti al tuo servizio</h2>
+                    <div class="section__divider"></div>
+                    <p class="section__subtitle">I nostri specialisti sono professionisti qualificati e riconosciuti, pronti ad assisterti nel tuo percorso terapeutico con competenza e dedizione</p>
+                </div>
+                
+                <div class="doctors-grid">
+                    <!-- Doctor 1 -->
+                    <div class="doctor-card">
+                        <div class="doctor-card__body">
+                            <div class="doctor-card__avatar">VS</div>
+                            <h3 class="doctor-card__name">Dott.ssa Veronica Spoto</h3>
+                            <div class="doctor-card__specialization">Medicina Generale & Nutrizione Clinica</div>
+                            
+                            <div class="doctor-card__stats">
+                                <div class="doctor-stat">
+                                    <i class="fas fa-graduation-cap doctor-stat__icon--primary" aria-hidden="true"></i>
+                                    <span>Università degli studi di Catania</span>
+                                </div>
+                                <div class="doctor-stat">
+                                    <i class="fas fa-certificate doctor-stat__icon--secondary" aria-hidden="true"></i>
+                                    <span>Master di II livello in Nutrizione Clinica</span>
+                                </div>
+                                <div class="doctor-stat">
+                                    <i class="fas fa-stethoscope doctor-stat__icon--accent" aria-hidden="true"></i>
+                                    <span>Specialista in Medicina Generale</span>
+                                </div>
+                            </div>
+                            
+                            <button class="doctor-card__btn">
+                                <i class="fas fa-calendar-check" aria-hidden="true"></i>
+                                Prenota Consulto
+                            </button>
+                        </div>
+                    </div>
+                    
+                    <!-- Doctor 2 -->
+                    <div class="doctor-card">
+                        <div class="doctor-card__body">
+                            <div class="doctor-card__avatar">LG</div>
+                            <h3 class="doctor-card__name">Dott.ssa Laura Greco</h3>
+                            <div class="doctor-card__specialization">Medico Chirurgo</div>
+                            
+                            <div class="doctor-card__stats">
+                                <div class="doctor-stat">
+                                    <i class="fas fa-map-marker-alt doctor-stat__icon--primary" aria-hidden="true"></i>
+                                    <span>Nata a Palermo nel 1982</span>
+                                </div>
+                                <div class="doctor-stat">
+                                    <i class="fas fa-graduation-cap doctor-stat__icon--secondary" aria-hidden="true"></i>
+                                    <span>Laurea in Medicina e Chirurgia (2006)</span>
+                                </div>
+                                <div class="doctor-stat">
+                                    <i class="fas fa-university doctor-stat__icon--accent" aria-hidden="true"></i>
+                                    <span>Università degli studi di Catania</span>
+                                </div>
+                            </div>
+                            
+                            <button class="doctor-card__btn">
+                                <i class="fas fa-calendar-check" aria-hidden="true"></i>
+                                Prenota Consulto
+                            </button>
+                        </div>
+                    </div>
+                    
+                    <!-- Doctor 3 -->
+                    <div class="doctor-card">
+                        <div class="doctor-card__body">
+                            <div class="doctor-card__avatar">SG</div>
+                            <h3 class="doctor-card__name">Dott. Stefano Grasso</h3>
+                            <div class="doctor-card__specialization">Medicina d'Emergenza & Estetica</div>
+                            
+                            <div class="doctor-card__stats">
+                                <div class="doctor-stat">
+                                    <i class="fas fa-ambulance doctor-stat__icon--primary" aria-hidden="true"></i>
+                                    <span>Medico di emergenza - 118</span>
+                                </div>
+                                <div class="doctor-stat">
+                                    <i class="fas fa-graduation-cap doctor-stat__icon--secondary" aria-hidden="true"></i>
+                                    <span>Università degli studi di Catania</span>
+                                </div>
+                                <div class="doctor-stat">
+                                    <i class="fas fa-certificate doctor-stat__icon--accent" aria-hidden="true"></i>
+                                    <span>Specializzazione in Medicina Estetica</span>
+                                </div>
+                                <div class="doctor-stat">
+                                    <i class="fas fa-microscope doctor-stat__icon--primary" aria-hidden="true"></i>
+                                    <span>Ecografia internistica</span>
+                                </div>
+                            </div>
+                            
+                            <button class="doctor-card__btn">
+                                <i class="fas fa-calendar-check" aria-hidden="true"></i>
+                                Prenota Consulto
+                            </button>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Call to Action -->
+                <div class="doctors-cta">
+                    <div class="doctors-cta__content">
+                        <h3 class="doctors-cta__title">Non trovi lo specialista che cerchi?</h3>
+                        <p class="doctors-cta__text">Il nostro network include oltre 50 specialisti qualificati in diverse aree mediche</p>
+                        <div class="doctors-cta__buttons">
+                            <button class="btn btn--primary">
+                                <i class="fas fa-search" aria-hidden="true"></i>
+                                Trova il tuo specialista
+                            </button>
+                            <button class="btn btn--outline">
+                                <i class="fas fa-phone" aria-hidden="true"></i>
+                                Contatta la segreteria
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Professional Network -->
+        <section class="section section--gradient">
+            <div class="container">
+                <div class="professional-network">
+                    <h2 class="professional-network__title">Entra nel nostro Network Professionale</h2>
+                    <p class="professional-network__text">Unisciti alla nostra comunità di specialisti per offrire le migliori terapie personalizzate</p>
+                    <button class="btn btn--outline">Diventa un collaboratore</button>
+                </div>
+            </div>
+        </section>
+
+        <!-- News Section -->
+        <section class="section">
+            <div class="container">
+                <div class="section__header">
+                    <h2 class="section__title">Notizie e aggiornamenti</h2>
+                    <div class="section__divider"></div>
+                    <p class="section__subtitle">Tutte le news sulla cannabis medica. Studi, ricerche e notizie scientifiche</p>
+                </div>
+                
+                <div class="news-grid">
+                    <article class="news-card">
+                        <div class="news-card__image"></div>
+                        <div class="news-card__body">
+                            <time class="news-card__date">12 Luglio 2023</time>
+                            <h3 class="news-card__title">Nuovi studi sulla cannabis medica</h3>
+                            <p class="news-card__text">Ricerche internazionali confermano l'efficacia dei composti galenici nella terapia del dolore cronico.</p>
+                        </div>
+                    </article>
+                    
+                    <article class="news-card">
+                        <div class="news-card__image"></div>
+                        <div class="news-card__body">
+                            <time class="news-card__date">5 Giugno 2023</time>
+                            <h3 class="news-card__title">Approvate nuove indicazioni terapeutiche</h3>
+                            <p class="news-card__text">Il ministero della salute amplia le indicazioni terapeutiche per i preparati galenici.</p>
+                        </div>
+                    </article>
+                    
+                    <article class="news-card">
+                        <div class="news-card__image"></div>
+                        <div class="news-card__body">
+                            <time class="news-card__date">22 Maggio 2023</time>
+                            <h3 class="news-card__title">Conferenza internazionale su terapie personalizzate</h3>
+                            <p class="news-card__text">I nostri specialisti presenteranno i risultati delle ultime ricerche sui composti galenici.</p>
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <!-- FAQ Section -->
+        <section class="section section--gray">
+            <div class="container">
+                <div class="section__header">
+                    <h2 class="section__title">Domande frequenti</h2>
+                    <div class="section__divider"></div>
+                    <p class="section__subtitle">Risposte alle domande più comuni sui nostri servizi</p>
+                </div>
+                
+                <div class="faq-container">
+                    <div class="faq-item">
+                        <button class="faq-item__question" aria-expanded="false">
+                            <span>Come funziona la teleassistenza?</span>
+                            <i class="fas fa-chevron-down" aria-hidden="true"></i>
+                        </button>
+                        <div class="faq-item__answer">
+                            <p>La teleassistenza Galenica Online ti permette di connetterti con medici specialisti tramite videochiamata. Dopo aver prenotato, riceverai un link per accedere alla visita virtuale dal tuo computer o smartphone.</p>
+                        </div>
+                    </div>
+                    
+                    <div class="faq-item">
+                        <button class="faq-item__question" aria-expanded="false">
+                            <span>Quali patologie trattate?</span>
+                            <i class="fas fa-chevron-down" aria-hidden="true"></i>
+                        </button>
+                        <div class="faq-item__answer">
+                            <p>Trattiamo diverse patologie tra cui dolore cronico, patologie oncologiche, neurologiche, disturbi psichici, ginecologiche e patologie rare. Consulta la sezione "Patologie" per l'elenco completo.</p>
+                        </div>
+                    </div>
+                    
+                    <div class="faq-item">
+                        <button class="faq-item__question" aria-expanded="false">
+                            <span>Quanto costa una visita?</span>
+                            <i class="fas fa-chevron-down" aria-hidden="true"></i>
+                        </button>
+                        <div class="faq-item__answer">
+                            <p>I costi variano in base al tipo di visita e allo specialista. Contatta la nostra segreteria al numero (+39) 351 242 7030 per informazioni dettagliate sui prezzi.</p>
+                        </div>
+                    </div>
+                    
+                    <div class="faq-item">
+                        <button class="faq-item__question" aria-expanded="false">
+                            <span>Le ricette sono valide in tutta Italia?</span>
+                            <i class="fas fa-chevron-down" aria-hidden="true"></i>
+                        </button>
+                        <div class="faq-item__answer">
+                            <p>Sì, tutte le ricette elettroniche emesse dai nostri medici sono valide su tutto il territorio nazionale e possono essere utilizzate in qualsiasi farmacia.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer" role="contentinfo">
+        <div class="container">
+            <div class="footer__content">
+                <div class="footer__brand">
+                    <div class="footer__logo">
+                        <div class="footer__logo-icon">
+                            <i class="fas fa-pills" aria-hidden="true"></i>
+                        </div>
+                        <h3 class="footer__logo-text">Progetto<span class="footer__logo-accent">Online</span></h3>
+                    </div>
+                    <p class="footer__description">Servizio di teleassistenza specializzato.</p>
+                    <div class="footer__social">
+                        <a href="#" aria-label="Facebook">
+                            <i class="fab fa-facebook-f" aria-hidden="true"></i>
+                        </a>
+                        <a href="#" aria-label="Twitter">
+                            <i class="fab fa-twitter" aria-hidden="true"></i>
+                        </a>
+                        <a href="#" aria-label="Instagram">
+                            <i class="fab fa-instagram" aria-hidden="true"></i>
+                        </a>
+                        <a href="#" aria-label="LinkedIn">
+                            <i class="fab fa-linkedin-in" aria-hidden="true"></i>
+                        </a>
+                    </div>
+                </div>
+                
+                <div class="footer__section">
+                    <h4 class="footer__title">Servizi</h4>
+                    <ul class="footer__links">
+                        <li><a href="#">Televisita medica</a></li>
+                        <li><a href="#">Consulenza specialistica</a></li>
+                        <li><a href="#">Ricette elettroniche</a></li>
+                        <li><a href="#">Seconda opinione</a></li>
+                        <li><a href="#">Monitoraggio terapia</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer__section">
+                    <h4 class="footer__title">Link Utili</h4>
+                    <ul class="footer__links">
+                        <li><a href="#">Chi siamo</a></li>
+                        <li><a href="#">Termini e condizioni</a></li>
+                        <li><a href="#">Privacy Policy</a></li>
+                        <li><a href="#">Cookie Policy</a></li>
+                        <li><a href="#">FAQ</a></li>
+                        <li><a href="#">Blog</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer__section">
+                    <h4 class="footer__title">Contatti</h4>
+                    <div class="footer__contact">
+                        <div class="footer__contact-item">
+                            <i class="fas fa-map-marker-alt" aria-hidden="true"></i>
+                            <span>Via - 00100 Roma (RM)</span>
+                        </div>
+                        <div class="footer__contact-item">
+                            <i class="fas fa-phone" aria-hidden="true"></i>
+                            <span>+39</span>
+                        </div>
+                        <div class="footer__contact-item">
+                            <i class="fas fa-envelope" aria-hidden="true"></i>
+                            <span>info@********.com</span>
+                        </div>
+                        <div class="footer__contact-item">
+                            <i class="fas fa-clock" aria-hidden="true"></i>
+                            <span>Lun-Ven: 9:00 - 18:00</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="footer__bottom">
+                <p>&copy; 2025 Progetto Online. Tutti i diritti riservati. | P.IVA: 12345678901</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Scroll to Top Button -->
+    <button class="scroll-top" id="scrollTop" aria-hidden="true" aria-label="Torna in cima">
+        <i class="fas fa-arrow-up" aria-hidden="true"></i>
+    </button>
+
+    <!-- Scripts -->
+    <script src="script.js"></script>
+</body>
+</html>
